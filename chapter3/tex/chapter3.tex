@@ -28,4 +28,19 @@
 \frac{\partial \psi}{\partial x} = -\frac{\partial \phi}{\partial y}
 \end{equation}
 
+\section{\bf インバースタンジェントの微分}
+ここでは，タンジェントの逆関数の微分の導出方法を簡単に記述しておく．
+まず$q = \tan \theta$とすると，
+\begin{equation}
+\frac{d}{dq}\tan^{-1}q = \frac{d \theta}{dq} = \frac{1}{\frac{dq}{d\theta}}=\cos^2 \theta
+\end{equation}
+が得られる．ここで
+\begin{equation}
+1+\tan^2 \theta = \frac{1}{\cos^2 \theta}
+\end{equation}
+を利用すると，下式のようにインバースタンジェントの微分が得られる．
+\begin{equation}
+\frac{d}{dq}\tan^{-1}q =\cos^2 \theta=\frac{1}{1+q^2}
+\end{equation}
+
 \end{document}
